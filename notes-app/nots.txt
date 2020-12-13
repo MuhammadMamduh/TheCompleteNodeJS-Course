@@ -1,0 +1,16 @@
+
+global & process
+window & docmument
+
+how to access the command line arguments that we provide with the node command (ex: node app.js anyString) ?
+they are on that process global variable, process has a property where we can access all of the command line arguements passed in to our app
+
+json vs jsObject
+single quotes gets changed to double quotes
+& double quotes have been added to all property names
+
+when the method is an object property / this refers to the object that contains the method
+we cant access .this using an arrow function
+
+A callback function is a function that we provide as an argument to another function, with the intention of having it called later on.
+NOT all callbacks are Asynchrounous 
